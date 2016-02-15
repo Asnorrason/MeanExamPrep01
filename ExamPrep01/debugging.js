@@ -11,3 +11,16 @@ console.log(Object.getOwnPropertyNames(obj).filter(function (p){
 }))
 
 module.exports = obj;
+
+/**
+ * [ 'constructor',
+    'toString',
+    'toLocaleString',
+    'valueOf',
+    'hasOwnProperty',
+    'isPrototypeOf',
+    'propertyIsEnumerable',
+    '__defineGetter__',
+    '__lookupGetter__',
+    '__defineSetter__',
+    '__lookupSetter__' ]*/

@@ -1,10 +1,5 @@
 /**
  * Created by Asnorrason on 15/02/16.
- En variable kan bruges før den deklareres.
- Hoisiting er javascript som sætter alle deklareringerne i toppen af dokumentet.
- Før at programmet skal kende værdien af variablen, skal det ske før den skal bruges,
- ellers kender programmet kun variablen,
- men ikke værdien, dette vil give et resultat som eksempel to, hvor y er ”undefined”
  */
 
 //Pga hoisting bliver var x kørt som det første, og derefter får den en værdi, derfor vil programmet kunne udskrive x som 5.
